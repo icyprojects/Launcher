@@ -17,6 +17,7 @@ type
     Image6: TImage;
     Memo1: TMemo;
     Image7: TImage;
+    Button1: TButton;
     procedure Image1MouseEnter(Sender: TObject);
     procedure Image1MouseLeave(Sender: TObject);
     procedure Image1MouseDown(Sender: TObject; Button: TMouseButton;
