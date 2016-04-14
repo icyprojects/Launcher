@@ -2139,4 +2139,12 @@ object Form8: TForm8
     ReadOnly = True
     TabOrder = 0
   end
+  object Button1: TButton
+    Left = 24
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 1
+  end
 end
