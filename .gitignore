@@ -26,8 +26,8 @@
 #*.obj
 #
 
-[Dd]ebag/
-[Rr]elease/
+Debag/
+Release/
 
 bin/
 obj/
