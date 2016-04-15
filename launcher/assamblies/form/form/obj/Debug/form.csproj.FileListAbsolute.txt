@@ -1,5 +1,0 @@
-c:\users\иван черкасов\documents\visual studio 2015\Projects\form\form\bin\Debug\form.dll
-c:\users\иван черкасов\documents\visual studio 2015\Projects\form\form\bin\Debug\form.pdb
-c:\users\иван черкасов\documents\visual studio 2015\Projects\form\form\obj\Debug\form.csprojResolveAssemblyReference.cache
-c:\users\иван черкасов\documents\visual studio 2015\Projects\form\form\obj\Debug\form.dll
-c:\users\иван черкасов\documents\visual studio 2015\Projects\form\form\obj\Debug\form.pdb
