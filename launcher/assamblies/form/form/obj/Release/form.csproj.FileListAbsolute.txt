@@ -1,0 +1,4 @@
+c:\users\иван черкасов\documents\visual studio 2015\Projects\form\form\bin\Release\form.dll
+c:\users\иван черкасов\documents\visual studio 2015\Projects\form\form\bin\Release\form.pdb
+c:\users\иван черкасов\documents\visual studio 2015\Projects\form\form\obj\Release\form.dll
+c:\users\иван черкасов\documents\visual studio 2015\Projects\form\form\obj\Release\form.pdb

@@ -1,0 +1,13 @@
+<constructor>
+	<offset>7</offset>
+	
+	<paste>raw.</paste>
+	
+	<offset>6</offset>
+	
+	<paste>usercontent</paste>
+	
+	<!-- <findEnd>Launcher/</findEnd> -->
+	
+	<delete>blob/</delete>
+</constructor>
