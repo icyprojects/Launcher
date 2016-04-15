@@ -26,11 +26,11 @@
 #*.obj
 #
 
-[Dd]ebag\
-[Rr]elease\
+[Dd]ebag/
+[Rr]elease/
 
-bin\
-obj\
+bin/
+obj/
 
 # Delphi compiler-generated binaries (safe to delete)
 #*.exe
