@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace form
 {
-    public class MainWorker
+    public class FormWorker
     {
         public void OpenForm()
         {

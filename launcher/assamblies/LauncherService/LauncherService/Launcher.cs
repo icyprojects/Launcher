@@ -11,13 +11,13 @@ using Updater;
 
 namespace LauncherService
 {
-    static class Program
+    static class Launcher
     { 
         static void Main()
         {
 
-           // MainWorker mw = new MainWorker();
-           // mw.OpenForm();
+            FormWorker mw = new FormWorker();
+            mw.OpenForm();
 
             LauncherUpdater lu = new LauncherUpdater();
 
