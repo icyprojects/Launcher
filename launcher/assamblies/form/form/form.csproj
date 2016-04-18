@@ -141,22 +141,76 @@
     <None Include="Resources\unselect_2.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b1_1.jpg" />
+    <None Include="Resources\button_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b1_2.jpg" />
+    <None Include="Resources\Button_2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b1_3.jpg" />
+    <None Include="Resources\Button_3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b1_4.jpg" />
+    <None Include="Resources\Button_4.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b1_6.jpg" />
+    <None Include="Resources\Button_5.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b1_5_1.jpg" />
+    <None Include="Resources\Button_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\launcher.exit-hovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\launcher.exit-normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\launcher.exit-pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\launcher.сutdown.hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\launcher.сutdown.normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\launcher.сutdown.pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_1_hovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_1_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_2_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_3_hovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_3_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_4_hovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_4_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_5_hovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_5_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_6_hovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_6_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_2_hovered.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

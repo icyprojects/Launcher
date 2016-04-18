@@ -63,9 +63,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap b1_1 {
+        internal static System.Drawing.Bitmap button_1 {
             get {
-                object obj = ResourceManager.GetObject("b1_1", resourceCulture);
+                object obj = ResourceManager.GetObject("button_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap b1_2 {
+        internal static System.Drawing.Bitmap button_1_hovered {
             get {
-                object obj = ResourceManager.GetObject("b1_2", resourceCulture);
+                object obj = ResourceManager.GetObject("button_1_hovered", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap b1_3 {
+        internal static System.Drawing.Bitmap Button_1_pressed {
             get {
-                object obj = ResourceManager.GetObject("b1_3", resourceCulture);
+                object obj = ResourceManager.GetObject("Button_1_pressed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap b1_4 {
+        internal static System.Drawing.Bitmap Button_2 {
             get {
-                object obj = ResourceManager.GetObject("b1_4", resourceCulture);
+                object obj = ResourceManager.GetObject("Button_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap b1_5_1 {
+        internal static System.Drawing.Bitmap Button_2_hovered {
             get {
-                object obj = ResourceManager.GetObject("b1_5_1", resourceCulture);
+                object obj = ResourceManager.GetObject("Button_2_hovered", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,189 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap b1_6 {
+        internal static System.Drawing.Bitmap Button_2_pressed {
             get {
-                object obj = ResourceManager.GetObject("b1_6", resourceCulture);
+                object obj = ResourceManager.GetObject("Button_2_pressed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_3 {
+            get {
+                object obj = ResourceManager.GetObject("Button_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_3_hovered {
+            get {
+                object obj = ResourceManager.GetObject("Button_3_hovered", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_3_pressed {
+            get {
+                object obj = ResourceManager.GetObject("Button_3_pressed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_4 {
+            get {
+                object obj = ResourceManager.GetObject("Button_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_4_hovered {
+            get {
+                object obj = ResourceManager.GetObject("Button_4_hovered", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_4_pressed {
+            get {
+                object obj = ResourceManager.GetObject("Button_4_pressed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_5 {
+            get {
+                object obj = ResourceManager.GetObject("Button_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_5_hovered {
+            get {
+                object obj = ResourceManager.GetObject("Button_5_hovered", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_5_pressed {
+            get {
+                object obj = ResourceManager.GetObject("Button_5_pressed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_6 {
+            get {
+                object obj = ResourceManager.GetObject("Button_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_6_hovered {
+            get {
+                object obj = ResourceManager.GetObject("Button_6_hovered", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_6_pressed {
+            get {
+                object obj = ResourceManager.GetObject("Button_6_pressed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap launcher_exit_hovered {
+            get {
+                object obj = ResourceManager.GetObject("launcher_exit_hovered", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap launcher_exit_normal {
+            get {
+                object obj = ResourceManager.GetObject("launcher_exit_normal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap launcher_exit_pressed {
+            get {
+                object obj = ResourceManager.GetObject("launcher_exit_pressed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap launcher_сutdown_hover {
+            get {
+                object obj = ResourceManager.GetObject("launcher_сutdown_hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap launcher_сutdown_normal {
+            get {
+                object obj = ResourceManager.GetObject("launcher_сutdown_normal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap launcher_сutdown_pressed {
+            get {
+                object obj = ResourceManager.GetObject("launcher_сutdown_pressed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
