@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.ExceptionServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,175 +13,148 @@ namespace form
 {
     public partial class MainForm : Form
     {
+        int X0, Y0, Xmove, Ymove; // Объявляем переменные        
+        bool MDown = false;
+
+
+
+        public struct ActivePage
+        {
+            public bool first;
+            public bool second;
+        }
+
+        ActivePage activePage;
+
         public MainForm()
         {
             InitializeComponent();
+            
         }
 
-        private void pictureBox1_MouseEnter(object sender, EventArgs e)
+        private void UpdateButtons()
         {
-            pictureBox1.Image = form.Properties.Resources.cdf_hovered;
+            if (activePage.first)
+            {
+
+                BigButton7.Visible = false;
+                BigButton8.Visible = false;
+            }
+            else if (activePage.second)
+            {
+
+                BigButton7.Visible = true;
+                BigButton8.Visible = true;
+            }
         }
 
-        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        private void ActivateFirstPage()
         {
-            pictureBox1.Image = form.Properties.Resources.cdf_normal;
+            activePage.first = true;
+            activePage.second = false;
+            LeftPanelButton1.Image = form.Properties.Resources.select_1;
+            LeftPanelButton2.Image = form.Properties.Resources.unselect_2;
+            UpdateButtons();
         }
 
-        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        private void ActivateSecondPage()
         {
-            pictureBox1.Image = form.Properties.Resources.cdf_pressed;
+            activePage.first = false;
+            activePage.second = true;
+            LeftPanelButton1.Image = form.Properties.Resources.unselect_1;
+            LeftPanelButton2.Image = form.Properties.Resources.select_2;
+            UpdateButtons();
         }
 
-        private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
+
+        private void MainLayout_Click(object sender, EventArgs e)
         {
-            pictureBox1.Image = form.Properties.Resources.cdf_normal;
+            MessageBox.Show("");
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void LeftPanelButton1_MouseEnter(object sender, EventArgs e)
         {
-            //run cdf
-        }
-        //=====
-
-
-
-        // Ссылка на DT
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            // run dt
+            if (!activePage.first)
+            {
+                LeftPanelButton1.Image = form.Properties.Resources.select_hover_1;
+            }
         }
 
-        private void pictureBox2_MouseEnter(object sender, EventArgs e)
+        private void LeftPanelButton1_MouseLeave(object sender, EventArgs e)
         {
-            pictureBox2.Image = form.Properties.Resources.dt_hovered;
+            if (!activePage.first)
+            {
+                LeftPanelButton1.Image = form.Properties.Resources.unselect_1;
+            }
         }
 
-        private void pictureBox2_MouseLeave(object sender, EventArgs e)
+        private void LeftPanelButton1_MouseDown(object sender, MouseEventArgs e)
         {
-            pictureBox2.Image = form.Properties.Resources.dt_normal;
+            if (!activePage.first)
+            {
+                LeftPanelButton1.Image = form.Properties.Resources.select_1;
+            }
         }
 
-        private void pictureBox2_MouseDown(object sender, MouseEventArgs e)
+        private void LeftPanelButton2_MouseUp(object sender, MouseEventArgs e)
         {
-            pictureBox2.Image = form.Properties.Resources.dt_pressed;
+            ActivateSecondPage();
         }
 
-        private void pictureBox2_MouseUp(object sender, MouseEventArgs e)
+        private void LeftPanelButton2_MouseEnter(object sender, EventArgs e)
         {
-            pictureBox2.Image = form.Properties.Resources.dt_normal;
-        }
-        //=====
-
-
-
-        //Ссылка на OFDM
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            //run ofdm
+            if (!activePage.second)
+            {
+                LeftPanelButton2.Image = form.Properties.Resources.select_hover_2;
+            }
         }
 
-        private void pictureBox3_MouseEnter(object sender, EventArgs e)
+        private void LeftPanelButton2_MouseLeave(object sender, EventArgs e)
         {
-            pictureBox3.Image = form.Properties.Resources.ofdm_hovered;
+            if (!activePage.second)
+            {
+                LeftPanelButton2.Image = form.Properties.Resources.unselect_2;
+            }
         }
 
-        private void pictureBox3_MouseLeave(object sender, EventArgs e)
+        private void LeftPanelButton2_MouseDown(object sender, MouseEventArgs e)
         {
-            pictureBox3.Image = form.Properties.Resources.ofdm_normal;
+            if (!activePage.second)
+            {
+                LeftPanelButton2.Image = form.Properties.Resources.select_2;
+            }
         }
 
-        private void pictureBox3_MouseUp(object sender, MouseEventArgs e)
+        private void LeftPanelButton1_MouseUp(object sender, MouseEventArgs e)
         {
-            pictureBox3.Image = form.Properties.Resources.ofdm_normal;
+            ActivateFirstPage();
         }
 
-        private void pictureBox3_MouseDown(object sender, MouseEventArgs e)
+        private void MainForm_Load(object sender, EventArgs e)
         {
-            pictureBox3.Image = form.Properties.Resources.ofdm_pressed;
-        }
-        //=====
-
-
-        // Ссылка на QAM Auto
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            // run qam auto
+            ActivateFirstPage();
         }
 
-        private void pictureBox4_MouseEnter(object sender, EventArgs e)
+        private void Header_MouseDown(object sender, MouseEventArgs e)
         {
-            pictureBox4.Image = form.Properties.Resources.qam_auto_hovered;
+            X0 = e.X;
+            Y0 = e.Y;
+            MDown = true;
         }
 
-        private void pictureBox4_MouseLeave(object sender, EventArgs e)
+        private void Header_MouseMove(object sender, MouseEventArgs e)
         {
-            pictureBox4.Image = form.Properties.Resources.qam_auto_normal;
+            if (MDown == true) //если нажата кнопка мыши            
+            {
+                Xmove = e.X;
+                Ymove = e.Y;
+                this.SetDesktopLocation(this.Location.X + (Xmove - X0), this.Location.Y + (Ymove - Y0)); //задаем расположение формы на рабочем столе с помощью данной команды      
+            }
         }
 
-        private void pictureBox4_MouseDown(object sender, MouseEventArgs e)
+        private void Header_MouseUp(object sender, MouseEventArgs e)
         {
-            pictureBox4.Image = form.Properties.Resources.qam_auto_pressed;
-        }
-
-        private void pictureBox4_MouseUp(object sender, MouseEventArgs e)
-        {
-            pictureBox4.Image = form.Properties.Resources.qam_auto_normal;
-        }
-        //===
-
-        // Ссылка на qam manual
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-            //run qam manual
-        }
-
-        private void pictureBox5_MouseEnter(object sender, EventArgs e)
-        {
-            pictureBox5.Image = form.Properties.Resources.qam_manual_hovered;
-        }
-
-        private void pictureBox5_MouseLeave(object sender, EventArgs e)
-        {
-            pictureBox5.Image = form.Properties.Resources.qam_manual_normal;
-        }
-
-        private void pictureBox5_MouseDown(object sender, MouseEventArgs e)
-        {
-            pictureBox5.Image = form.Properties.Resources.qam_manual_pressed;
-        }
-
-        private void pictureBox5_MouseUp(object sender, MouseEventArgs e)
-        {
-            pictureBox5.Image = form.Properties.Resources.qam_manual_normal;
-        }
-        //=====
-
-
-        //Ссылка на SpM
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-            // run SpM
-        }
-
-        private void pictureBox6_MouseEnter(object sender, EventArgs e)
-        {
-            pictureBox6.Image = form.Properties.Resources.spectrum_hovered;
-        }
-
-        private void pictureBox6_MouseLeave(object sender, EventArgs e)
-        {
-            pictureBox6.Image = form.Properties.Resources.spectrum_normal;
-        }
-
-        private void pictureBox6_MouseDown(object sender, MouseEventArgs e)
-        {
-            pictureBox6.Image = form.Properties.Resources.spectrum_pressed;
-        }
-
-        private void pictureBox6_MouseUp(object sender, MouseEventArgs e)
-        {
-            pictureBox6.Image = form.Properties.Resources.spectrum_normal;
+            MDown = false;
         }
         //=====
     }

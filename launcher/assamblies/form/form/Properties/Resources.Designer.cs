@@ -63,9 +63,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cdf_hovered {
+        internal static System.Drawing.Bitmap b1_1 {
             get {
-                object obj = ResourceManager.GetObject("cdf_hovered", resourceCulture);
+                object obj = ResourceManager.GetObject("b1_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cdf_normal {
+        internal static System.Drawing.Bitmap b1_2 {
             get {
-                object obj = ResourceManager.GetObject("cdf_normal", resourceCulture);
+                object obj = ResourceManager.GetObject("b1_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cdf_pressed {
+        internal static System.Drawing.Bitmap b1_3 {
             get {
-                object obj = ResourceManager.GetObject("cdf_pressed", resourceCulture);
+                object obj = ResourceManager.GetObject("b1_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dt_hovered {
+        internal static System.Drawing.Bitmap b1_4 {
             get {
-                object obj = ResourceManager.GetObject("dt_hovered", resourceCulture);
+                object obj = ResourceManager.GetObject("b1_4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dt_normal {
+        internal static System.Drawing.Bitmap b1_5_1 {
             get {
-                object obj = ResourceManager.GetObject("dt_normal", resourceCulture);
+                object obj = ResourceManager.GetObject("b1_5_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dt_pressed {
+        internal static System.Drawing.Bitmap b1_6 {
             get {
-                object obj = ResourceManager.GetObject("dt_pressed", resourceCulture);
+                object obj = ResourceManager.GetObject("b1_6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ofdm_hovered {
+        internal static System.Drawing.Bitmap select_1 {
             get {
-                object obj = ResourceManager.GetObject("ofdm_hovered", resourceCulture);
+                object obj = ResourceManager.GetObject("select_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ofdm_normal {
+        internal static System.Drawing.Bitmap select_2 {
             get {
-                object obj = ResourceManager.GetObject("ofdm_normal", resourceCulture);
+                object obj = ResourceManager.GetObject("select_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ofdm_pressed {
+        internal static System.Drawing.Bitmap select_hover_1 {
             get {
-                object obj = ResourceManager.GetObject("ofdm_pressed", resourceCulture);
+                object obj = ResourceManager.GetObject("select_hover_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap qam_auto_hovered {
+        internal static System.Drawing.Bitmap select_hover_2 {
             get {
-                object obj = ResourceManager.GetObject("qam_auto_hovered", resourceCulture);
+                object obj = ResourceManager.GetObject("select_hover_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap qam_auto_normal {
+        internal static System.Drawing.Bitmap unselect_1 {
             get {
-                object obj = ResourceManager.GetObject("qam_auto_normal", resourceCulture);
+                object obj = ResourceManager.GetObject("unselect_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,69 +173,9 @@ namespace form.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap qam_auto_pressed {
+        internal static System.Drawing.Bitmap unselect_2 {
             get {
-                object obj = ResourceManager.GetObject("qam_auto_pressed", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap qam_manual_hovered {
-            get {
-                object obj = ResourceManager.GetObject("qam_manual_hovered", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap qam_manual_normal {
-            get {
-                object obj = ResourceManager.GetObject("qam_manual_normal", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap qam_manual_pressed {
-            get {
-                object obj = ResourceManager.GetObject("qam_manual_pressed", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap spectrum_hovered {
-            get {
-                object obj = ResourceManager.GetObject("spectrum_hovered", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap spectrum_normal {
-            get {
-                object obj = ResourceManager.GetObject("spectrum_normal", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap spectrum_pressed {
-            get {
-                object obj = ResourceManager.GetObject("spectrum_pressed", resourceCulture);
+                object obj = ResourceManager.GetObject("unselect_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

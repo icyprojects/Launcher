@@ -122,6 +122,42 @@
   <ItemGroup>
     <None Include="images\buttons\spectrum_pressed.bmp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unselect_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_hover_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_hover_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unselect_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1_5_1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

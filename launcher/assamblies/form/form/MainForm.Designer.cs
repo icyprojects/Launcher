@@ -28,166 +28,282 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            this.MainLayout = new System.Windows.Forms.Panel();
+            this.LeftPanel = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.Footer = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.BigButton8 = new System.Windows.Forms.PictureBox();
+            this.BigButton7 = new System.Windows.Forms.PictureBox();
+            this.BigButton6 = new System.Windows.Forms.PictureBox();
+            this.BigButton5 = new System.Windows.Forms.PictureBox();
+            this.BigButton4 = new System.Windows.Forms.PictureBox();
+            this.BigButton3 = new System.Windows.Forms.PictureBox();
+            this.BigButton2 = new System.Windows.Forms.PictureBox();
+            this.BigButton1 = new System.Windows.Forms.PictureBox();
+            this.LeftPanelButton1 = new System.Windows.Forms.PictureBox();
+            this.LeftPanelButton2 = new System.Windows.Forms.PictureBox();
+            this.Header = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.MainLayout.SuspendLayout();
+            this.LeftPanel.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LeftPanelButton1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LeftPanelButton2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Header)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // MainLayout
+            // 
+            this.MainLayout.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.MainLayout.Controls.Add(this.BigButton8);
+            this.MainLayout.Controls.Add(this.BigButton7);
+            this.MainLayout.Controls.Add(this.BigButton6);
+            this.MainLayout.Controls.Add(this.BigButton5);
+            this.MainLayout.Controls.Add(this.BigButton4);
+            this.MainLayout.Controls.Add(this.BigButton3);
+            this.MainLayout.Controls.Add(this.BigButton2);
+            this.MainLayout.Controls.Add(this.BigButton1);
+            this.MainLayout.Controls.Add(this.LeftPanel);
+            this.MainLayout.Controls.Add(this.Header);
+            this.MainLayout.Controls.Add(this.Footer);
+            this.MainLayout.Controls.Add(this.textBox1);
+            this.MainLayout.Controls.Add(this.pictureBox1);
+            this.MainLayout.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MainLayout.Location = new System.Drawing.Point(0, 0);
+            this.MainLayout.Name = "MainLayout";
+            this.MainLayout.Size = new System.Drawing.Size(1057, 468);
+            this.MainLayout.TabIndex = 0;
+            // 
+            // LeftPanel
+            // 
+            this.LeftPanel.Controls.Add(this.tableLayoutPanel1);
+            this.LeftPanel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.LeftPanel.Location = new System.Drawing.Point(0, 47);
+            this.LeftPanel.Margin = new System.Windows.Forms.Padding(0);
+            this.LeftPanel.Name = "LeftPanel";
+            this.LeftPanel.Size = new System.Drawing.Size(225, 398);
+            this.LeftPanel.TabIndex = 23;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.LeftPanelButton1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.LeftPanelButton2, 0, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 3;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(225, 398);
+            this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // Footer
+            // 
+            this.Footer.BackColor = System.Drawing.Color.LightGray;
+            this.Footer.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Footer.Location = new System.Drawing.Point(0, 445);
+            this.Footer.Name = "Footer";
+            this.Footer.Size = new System.Drawing.Size(1055, 21);
+            this.Footer.TabIndex = 22;
             // 
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(186, 185);
+            this.textBox1.Location = new System.Drawing.Point(797, 53);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(286, 63);
-            this.textBox1.TabIndex = 6;
+            this.textBox1.Size = new System.Drawing.Size(253, 384);
+            this.textBox1.TabIndex = 16;
             // 
-            // pictureBox7
+            // BigButton8
             // 
-            this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox7.Location = new System.Drawing.Point(186, 12);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(286, 150);
-            this.pictureBox7.TabIndex = 7;
-            this.pictureBox7.TabStop = false;
+            this.BigButton8.Location = new System.Drawing.Point(522, 362);
+            this.BigButton8.Name = "BigButton8";
+            this.BigButton8.Size = new System.Drawing.Size(250, 75);
+            this.BigButton8.TabIndex = 35;
+            this.BigButton8.TabStop = false;
             // 
-            // pictureBox6
+            // BigButton7
             // 
-            this.pictureBox6.Image = global::form.Properties.Resources.spectrum_normal;
-            this.pictureBox6.Location = new System.Drawing.Point(99, 185);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
-            this.pictureBox6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox6_MouseDown);
-            this.pictureBox6.MouseEnter += new System.EventHandler(this.pictureBox6_MouseEnter);
-            this.pictureBox6.MouseLeave += new System.EventHandler(this.pictureBox6_MouseLeave);
-            this.pictureBox6.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox6_MouseUp);
+            this.BigButton7.Location = new System.Drawing.Point(246, 362);
+            this.BigButton7.Name = "BigButton7";
+            this.BigButton7.Size = new System.Drawing.Size(250, 75);
+            this.BigButton7.TabIndex = 34;
+            this.BigButton7.TabStop = false;
             // 
-            // pictureBox5
+            // BigButton6
             // 
-            this.pictureBox5.Image = global::form.Properties.Resources.qam_manual_normal;
-            this.pictureBox5.Location = new System.Drawing.Point(12, 185);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
-            this.pictureBox5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox5_MouseDown);
-            this.pictureBox5.MouseEnter += new System.EventHandler(this.pictureBox5_MouseEnter);
-            this.pictureBox5.MouseLeave += new System.EventHandler(this.pictureBox5_MouseLeave);
-            this.pictureBox5.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox5_MouseUp);
+            this.BigButton6.Image = global::form.Properties.Resources.b1_6;
+            this.BigButton6.Location = new System.Drawing.Point(522, 260);
+            this.BigButton6.Name = "BigButton6";
+            this.BigButton6.Size = new System.Drawing.Size(250, 75);
+            this.BigButton6.TabIndex = 33;
+            this.BigButton6.TabStop = false;
             // 
-            // pictureBox4
+            // BigButton5
             // 
-            this.pictureBox4.Image = global::form.Properties.Resources.qam_auto_normal;
-            this.pictureBox4.Location = new System.Drawing.Point(99, 98);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            this.pictureBox4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox4_MouseDown);
-            this.pictureBox4.MouseEnter += new System.EventHandler(this.pictureBox4_MouseEnter);
-            this.pictureBox4.MouseLeave += new System.EventHandler(this.pictureBox4_MouseLeave);
-            this.pictureBox4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox4_MouseUp);
+            this.BigButton5.Image = global::form.Properties.Resources.b1_5_1;
+            this.BigButton5.Location = new System.Drawing.Point(246, 260);
+            this.BigButton5.Name = "BigButton5";
+            this.BigButton5.Size = new System.Drawing.Size(250, 75);
+            this.BigButton5.TabIndex = 32;
+            this.BigButton5.TabStop = false;
             // 
-            // pictureBox3
+            // BigButton4
             // 
-            this.pictureBox3.Image = global::form.Properties.Resources.ofdm_normal;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 98);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            this.pictureBox3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseDown);
-            this.pictureBox3.MouseEnter += new System.EventHandler(this.pictureBox3_MouseEnter);
-            this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
-            this.pictureBox3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseUp);
+            this.BigButton4.Image = global::form.Properties.Resources.b1_4;
+            this.BigButton4.Location = new System.Drawing.Point(522, 156);
+            this.BigButton4.Name = "BigButton4";
+            this.BigButton4.Size = new System.Drawing.Size(250, 75);
+            this.BigButton4.TabIndex = 31;
+            this.BigButton4.TabStop = false;
             // 
-            // pictureBox2
+            // BigButton3
             // 
-            this.pictureBox2.Image = global::form.Properties.Resources.dt_normal;
-            this.pictureBox2.Location = new System.Drawing.Point(99, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            this.pictureBox2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseDown);
-            this.pictureBox2.MouseEnter += new System.EventHandler(this.pictureBox2_MouseEnter);
-            this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
-            this.pictureBox2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseUp);
+            this.BigButton3.Image = global::form.Properties.Resources.b1_3;
+            this.BigButton3.Location = new System.Drawing.Point(246, 156);
+            this.BigButton3.Name = "BigButton3";
+            this.BigButton3.Size = new System.Drawing.Size(250, 75);
+            this.BigButton3.TabIndex = 30;
+            this.BigButton3.TabStop = false;
+            // 
+            // BigButton2
+            // 
+            this.BigButton2.Image = global::form.Properties.Resources.b1_1;
+            this.BigButton2.Location = new System.Drawing.Point(522, 52);
+            this.BigButton2.Name = "BigButton2";
+            this.BigButton2.Size = new System.Drawing.Size(250, 75);
+            this.BigButton2.TabIndex = 29;
+            this.BigButton2.TabStop = false;
+            // 
+            // BigButton1
+            // 
+            this.BigButton1.Image = global::form.Properties.Resources.b1_2;
+            this.BigButton1.Location = new System.Drawing.Point(246, 53);
+            this.BigButton1.Name = "BigButton1";
+            this.BigButton1.Size = new System.Drawing.Size(250, 75);
+            this.BigButton1.TabIndex = 24;
+            this.BigButton1.TabStop = false;
+            // 
+            // LeftPanelButton1
+            // 
+            this.LeftPanelButton1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LeftPanelButton1.Image = ((System.Drawing.Image)(resources.GetObject("LeftPanelButton1.Image")));
+            this.LeftPanelButton1.Location = new System.Drawing.Point(3, 3);
+            this.LeftPanelButton1.Name = "LeftPanelButton1";
+            this.LeftPanelButton1.Size = new System.Drawing.Size(219, 44);
+            this.LeftPanelButton1.TabIndex = 0;
+            this.LeftPanelButton1.TabStop = false;
+            this.LeftPanelButton1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.LeftPanelButton1_MouseDown);
+            this.LeftPanelButton1.MouseEnter += new System.EventHandler(this.LeftPanelButton1_MouseEnter);
+            this.LeftPanelButton1.MouseLeave += new System.EventHandler(this.LeftPanelButton1_MouseLeave);
+            this.LeftPanelButton1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.LeftPanelButton1_MouseUp);
+            // 
+            // LeftPanelButton2
+            // 
+            this.LeftPanelButton2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LeftPanelButton2.Image = global::form.Properties.Resources.unselect_2;
+            this.LeftPanelButton2.Location = new System.Drawing.Point(3, 53);
+            this.LeftPanelButton2.Name = "LeftPanelButton2";
+            this.LeftPanelButton2.Size = new System.Drawing.Size(219, 44);
+            this.LeftPanelButton2.TabIndex = 1;
+            this.LeftPanelButton2.TabStop = false;
+            this.LeftPanelButton2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.LeftPanelButton2_MouseDown);
+            this.LeftPanelButton2.MouseEnter += new System.EventHandler(this.LeftPanelButton2_MouseEnter);
+            this.LeftPanelButton2.MouseLeave += new System.EventHandler(this.LeftPanelButton2_MouseLeave);
+            this.LeftPanelButton2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.LeftPanelButton2_MouseUp);
+            // 
+            // Header
+            // 
+            this.Header.BackColor = System.Drawing.Color.DarkGray;
+            this.Header.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Header.Location = new System.Drawing.Point(0, 0);
+            this.Header.Name = "Header";
+            this.Header.Size = new System.Drawing.Size(1055, 47);
+            this.Header.TabIndex = 21;
+            this.Header.TabStop = false;
+            this.Header.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Header_MouseDown);
+            this.Header.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Header_MouseMove);
+            this.Header.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Header_MouseUp);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::form.Properties.Resources.cdf_normal;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Location = new System.Drawing.Point(-102, -16);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.Size = new System.Drawing.Size(328, 572);
+            this.pictureBox1.TabIndex = 36;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
-            this.pictureBox1.MouseEnter += new System.EventHandler(this.pictureBox1_MouseEnter);
-            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
-            this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(484, 262);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.ClientSize = new System.Drawing.Size(1057, 468);
+            this.Controls.Add(this.MainLayout);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";
             this.Text = "TUSUR GPO Launcher";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.Load += new System.EventHandler(this.MainForm_Load);
+            this.MainLayout.ResumeLayout(false);
+            this.MainLayout.PerformLayout();
+            this.LeftPanel.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BigButton1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LeftPanelButton1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LeftPanelButton2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Header)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Panel MainLayout;
+        private System.Windows.Forms.Panel LeftPanel;
+        private System.Windows.Forms.PictureBox Header;
+        private System.Windows.Forms.Panel Footer;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.PictureBox LeftPanelButton1;
+        private System.Windows.Forms.PictureBox LeftPanelButton2;
+        private System.Windows.Forms.PictureBox BigButton1;
+        private System.Windows.Forms.PictureBox BigButton8;
+        private System.Windows.Forms.PictureBox BigButton7;
+        private System.Windows.Forms.PictureBox BigButton6;
+        private System.Windows.Forms.PictureBox BigButton5;
+        private System.Windows.Forms.PictureBox BigButton4;
+        private System.Windows.Forms.PictureBox BigButton3;
+        private System.Windows.Forms.PictureBox BigButton2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

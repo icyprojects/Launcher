@@ -118,58 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cdf_hovered" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\cdf_hovered.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b1_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cdf_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\cdf_normal.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b1_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cdf_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\cdf_pressed.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b1_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dt_hovered" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\dt_hovered.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b1_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dt_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\dt_normal.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b1_5_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b1_5_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dt_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\dt_pressed.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b1_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ofdm_hovered" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\ofdm_hovered.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="select_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\select_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ofdm_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\ofdm_normal.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="select_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\select_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ofdm_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\ofdm_pressed.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="select_hover_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\select_hover_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="qam_auto_hovered" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\qam_auto_hovered.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="select_hover_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\select_hover_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="qam_auto_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\qam_auto_normal.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="unselect_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unselect_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="qam_auto_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\qam_auto_pressed.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="qam_manual_hovered" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\qam_manual_hovered.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="qam_manual_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\qam_manual_normal.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="qam_manual_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\qam_manual_pressed.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="spectrum_hovered" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\spectrum_hovered.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="spectrum_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\spectrum_normal.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="spectrum_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\buttons\spectrum_pressed.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="unselect_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unselect_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
