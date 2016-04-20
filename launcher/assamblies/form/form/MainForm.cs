@@ -401,6 +401,72 @@ namespace form
             }
         }
 
+        private void BigButton4_MouseEnter(object sender, EventArgs e)
+        {
+            if (activePage.first)
+            {
+                BigButton4.Image = form.Properties.Resources.Button_4_hovered;
+                textBox1.Text = "Программа показывает имитацию работы реальной системы, " +
+                                "которая выносит решения, какое колебания подать " +
+                                "на выход, в зависимости от того какая последовательность " +
+                                "бит на входе. В программе генерируется случайный цифровой поток," +
+                                " который разбивается на квадратуры и строятся сигнальные созвездия.";
+            }
+            else
+            {
+
+            }
+        }
+
+        private void BigButton4_MouseLeave(object sender, EventArgs e)
+        {
+            if (activePage.first)
+            {
+                BigButton4.Image = form.Properties.Resources.Button_4;
+                textBox1.Text = "";
+            }
+            else
+            {
+
+            }
+        }
+
+        private void BigButton4_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (activePage.first)
+            {
+                BigButton4.Image = form.Properties.Resources.Button_4_pressed;
+            }
+            else
+            {
+
+            }
+        }
+
+        private void BigButton4_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (activePage.first)
+            {
+                BigButton4.Image = form.Properties.Resources.Button_4;
+            }
+            else
+            {
+
+            }
+        }
+
+        private void BigButton4_Click(object sender, EventArgs e)
+        {
+            if (activePage.first)
+            {
+                MessageBox.Show("Запускается Формирование созвездий КАМ-4");
+            }
+            else
+            {
+
+            }
+        }
+
         private void Header_MouseDown(object sender, MouseEventArgs e)
         {
             X0 = e.X;

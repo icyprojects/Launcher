@@ -30,11 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.MainLayout = new System.Windows.Forms.Panel();
-            this.LeftPanel = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.Footer = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.cutDownButton = new System.Windows.Forms.PictureBox();
             this.closeButton = new System.Windows.Forms.PictureBox();
             this.logoBox = new System.Windows.Forms.PictureBox();
@@ -46,13 +41,16 @@
             this.BigButton3 = new System.Windows.Forms.PictureBox();
             this.BigButton2 = new System.Windows.Forms.PictureBox();
             this.BigButton1 = new System.Windows.Forms.PictureBox();
+            this.LeftPanel = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.LeftPanelButton1 = new System.Windows.Forms.PictureBox();
             this.LeftPanelButton2 = new System.Windows.Forms.PictureBox();
             this.Header = new System.Windows.Forms.PictureBox();
+            this.Footer = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.MainLayout.SuspendLayout();
-            this.LeftPanel.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cutDownButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox)).BeginInit();
@@ -64,6 +62,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.BigButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BigButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BigButton1)).BeginInit();
+            this.LeftPanel.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LeftPanelButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LeftPanelButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Header)).BeginInit();
@@ -95,52 +95,6 @@
             this.MainLayout.Size = new System.Drawing.Size(1057, 474);
             this.MainLayout.TabIndex = 0;
             this.MainLayout.Paint += new System.Windows.Forms.PaintEventHandler(this.MainLayout_Paint);
-            // 
-            // LeftPanel
-            // 
-            this.LeftPanel.Controls.Add(this.tableLayoutPanel1);
-            this.LeftPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.LeftPanel.Location = new System.Drawing.Point(0, 50);
-            this.LeftPanel.Margin = new System.Windows.Forms.Padding(0);
-            this.LeftPanel.Name = "LeftPanel";
-            this.LeftPanel.Size = new System.Drawing.Size(225, 401);
-            this.LeftPanel.TabIndex = 23;
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.LeftPanelButton1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.LeftPanelButton2, 0, 1);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(225, 401);
-            this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // Footer
-            // 
-            this.Footer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(52)))));
-            this.Footer.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Footer.Location = new System.Drawing.Point(0, 451);
-            this.Footer.Name = "Footer";
-            this.Footer.Size = new System.Drawing.Size(1055, 21);
-            this.Footer.TabIndex = 22;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(797, 56);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(253, 282);
-            this.textBox1.TabIndex = 16;
             // 
             // cutDownButton
             // 
@@ -222,6 +176,11 @@
             this.BigButton4.Size = new System.Drawing.Size(252, 77);
             this.BigButton4.TabIndex = 31;
             this.BigButton4.TabStop = false;
+            this.BigButton4.Click += new System.EventHandler(this.BigButton4_Click);
+            this.BigButton4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BigButton4_MouseDown);
+            this.BigButton4.MouseEnter += new System.EventHandler(this.BigButton4_MouseEnter);
+            this.BigButton4.MouseLeave += new System.EventHandler(this.BigButton4_MouseLeave);
+            this.BigButton4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.BigButton4_MouseUp);
             // 
             // BigButton3
             // 
@@ -265,6 +224,32 @@
             this.BigButton1.MouseLeave += new System.EventHandler(this.BigButton1_MouseLeave);
             this.BigButton1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.BigButton1_MouseUp);
             // 
+            // LeftPanel
+            // 
+            this.LeftPanel.Controls.Add(this.tableLayoutPanel1);
+            this.LeftPanel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.LeftPanel.Location = new System.Drawing.Point(0, 50);
+            this.LeftPanel.Margin = new System.Windows.Forms.Padding(0);
+            this.LeftPanel.Name = "LeftPanel";
+            this.LeftPanel.Size = new System.Drawing.Size(225, 401);
+            this.LeftPanel.TabIndex = 23;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.LeftPanelButton1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.LeftPanelButton2, 0, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 3;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(225, 401);
+            this.tableLayoutPanel1.TabIndex = 0;
+            // 
             // LeftPanelButton1
             // 
             this.LeftPanelButton1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -307,6 +292,26 @@
             this.Header.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Header_MouseMove);
             this.Header.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Header_MouseUp);
             // 
+            // Footer
+            // 
+            this.Footer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(52)))));
+            this.Footer.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Footer.Location = new System.Drawing.Point(0, 451);
+            this.Footer.Name = "Footer";
+            this.Footer.Size = new System.Drawing.Size(1055, 21);
+            this.Footer.TabIndex = 22;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Location = new System.Drawing.Point(797, 56);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox1.Size = new System.Drawing.Size(253, 282);
+            this.textBox1.TabIndex = 16;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -331,8 +336,6 @@
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.MainLayout.ResumeLayout(false);
             this.MainLayout.PerformLayout();
-            this.LeftPanel.ResumeLayout(false);
-            this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.cutDownButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox)).EndInit();
@@ -344,6 +347,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.BigButton3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BigButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BigButton1)).EndInit();
+            this.LeftPanel.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.LeftPanelButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LeftPanelButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Header)).EndInit();
